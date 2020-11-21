@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">APLIK S.A.C.</string>
+    <string name="elija_tema_para_la_aplicaci_n">Elija tema para la aplicación</string>
+    <string name="escoja_tama_o_de_fuente">Escoja tamaño de fuente</string>
+    <string name="guardar">Guardar</string>
+
+    <string-array name="tamanio">
+        <item>Medio</item>
+        <item>Grande</item>
+        <item>Pequeño</item>
+    </string-array>
+
+</resources>
