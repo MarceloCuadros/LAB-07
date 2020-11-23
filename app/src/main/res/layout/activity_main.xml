@@ -160,36 +160,36 @@
 
     <TextView
         android:id="@+id/txtFuente"
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/escoja_tama_o_de_fuente"
         android:textAlignment="center"
-        android:textColor="@color/md_grey_700"
         android:textAppearance="@android:style/TextAppearance.Medium"
-        android:text="@string/escoja_tama_o_de_fuente"/>
+        android:textColor="@color/md_grey_700" />
 
     <Spinner
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
         android:id="@+id/spAnimals"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="66dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
         android:entries="@array/tamanio" />
 
     <Button
-        android:layout_marginTop="200dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginRight="60dp"
         android:id="@+id/btnGuardar"
-        android:background="@color/md_grey_700"
-        android:textColor="@color/md_white_1000"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="47dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="60dp"
+        android:background="@color/md_grey_700"
+        android:text="@string/guardar"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:text="@string/guardar" />
+        android:textColor="@color/md_white_1000" />
 
 
 </LinearLayout>

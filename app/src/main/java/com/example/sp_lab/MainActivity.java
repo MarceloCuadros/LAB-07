@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                builder.setMessage("Tema y fuentes guardado");
+                builder.setMessage("Guardado");
                 builder.setPositiveButton("Aceptar", null);
                 AlertDialog dialog = builder.create();
                 dialog.show();
